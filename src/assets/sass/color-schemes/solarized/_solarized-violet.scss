@@ -1,0 +1,22 @@
+html .solarized-violet {
+	background-color: linear-gradient(45deg, $violet, #A46DFF, #F6D1FD);
+
+	.header {
+		&--name h1,
+		&--bio {
+			color: #fff;
+		}
+	}
+
+	.links {
+		&--single a,
+		&--single a:visited {
+			border-color: $magenta;
+		}
+
+		&:hover,
+		&:active {
+			color: $base3;
+		}
+	}
+}

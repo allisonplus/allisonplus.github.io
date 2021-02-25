@@ -42,6 +42,16 @@ html .solarized-light {
   html .solarized-light .links--single a:active {
     color: #586e75; }
 
+html .solarized-violet {
+  background-color: linear-gradient(45deg, #6c71c4, #A46DFF, #F6D1FD); }
+  html .solarized-violet .header--name h1, html .solarized-violet .header--bio {
+    color: #fff; }
+  html .solarized-violet .links--single a,
+  html .solarized-violet .links--single a:visited {
+    border-color: #d33682; }
+  html .solarized-violet .links:hover, html .solarized-violet .links:active {
+    color: #fdf6e3; }
+
 html * {
   color-profile: sRGB;
   rendering-intent: auto;
