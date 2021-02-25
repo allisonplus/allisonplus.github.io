@@ -41,6 +41,10 @@ html * {
 				margin-right: 10px;
 			}
 
+			a {
+				transition: color 0.25s linear;
+			}
+
 			a,
 			a:visited {
 				text-decoration: none;

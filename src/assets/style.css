@@ -94,6 +94,8 @@ html * {
     padding: 0; }
     .wrap .links--single span {
       margin-right: 10px; }
+    .wrap .links--single a {
+      transition: color 0.25s linear; }
     .wrap .links--single a,
     .wrap .links--single a:visited {
       text-decoration: none;
