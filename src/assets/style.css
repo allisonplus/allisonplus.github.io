@@ -48,7 +48,8 @@ html .solarized-violet {
     color: #fff; }
   html .solarized-violet .links--single a,
   html .solarized-violet .links--single a:visited {
-    border-color: #d33682; }
+    border-color: #d33682;
+    color: #fff; }
   html .solarized-violet .links:hover, html .solarized-violet .links:active {
     color: #fdf6e3; }
 
