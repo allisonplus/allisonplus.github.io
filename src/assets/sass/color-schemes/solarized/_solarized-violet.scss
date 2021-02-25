@@ -1,23 +1,50 @@
 html .solarized-violet {
-	background-color: linear-gradient(45deg, $violet, #A46DFF, #F6D1FD);
+	background-color: $violet;
+	background: linear-gradient(darken(#00dbde, 15%), $violet, #3b0053);
 
 	.header {
 		&--name h1,
-		&--bio {
+		&--bio,
+		&--pronouns {
 			color: #fff;
 		}
+
+		&--pronouns {
+
+			p {
+				font-weight: 600;
+				margin: 0;
+			}
+		}
+
+		&--bio {
+			margin: 0 auto;
+			max-width: 600px;
+		}
+	}
+
+	.fas,
+	.fab {
+		color: #3cf73c;
 	}
 
 	.links {
 		&--single a,
 		&--single a:visited {
-			border-color: $magenta;
-			color: #fff;
+			border-color: #00DBDE;
+			color: #FEFEFE;
 		}
 
-		&:hover,
-		&:active {
-			color: $base3;
+		&--single a:hover {
+			color: #3cf73c;
+
+			&:before {
+				color: #3cf73c;
+			}
+		}
+
+		&--single a:focus {
+			border: 2px dotted #00DBDE;
 		}
 	}
 }

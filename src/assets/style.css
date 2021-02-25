@@ -43,15 +43,29 @@ html .solarized-light {
     color: #586e75; }
 
 html .solarized-violet {
-  background-color: linear-gradient(45deg, #6c71c4, #A46DFF, #F6D1FD); }
-  html .solarized-violet .header--name h1, html .solarized-violet .header--bio {
+  background-color: #6c71c4;
+  background: linear-gradient(#009092, #6c71c4, #3b0053); }
+  html .solarized-violet .header--name h1, html .solarized-violet .header--bio, html .solarized-violet .header--pronouns {
     color: #fff; }
+  html .solarized-violet .header--pronouns p {
+    font-weight: 600;
+    margin: 0; }
+  html .solarized-violet .header--bio {
+    margin: 0 auto;
+    max-width: 600px; }
+  html .solarized-violet .fas,
+  html .solarized-violet .fab {
+    color: #3cf73c; }
   html .solarized-violet .links--single a,
   html .solarized-violet .links--single a:visited {
-    border-color: #d33682;
-    color: #fff; }
-  html .solarized-violet .links:hover, html .solarized-violet .links:active {
-    color: #fdf6e3; }
+    border-color: #00DBDE;
+    color: #FEFEFE; }
+  html .solarized-violet .links--single a:hover {
+    color: #3cf73c; }
+    html .solarized-violet .links--single a:hover:before {
+      color: #3cf73c; }
+  html .solarized-violet .links--single a:focus {
+    border: 2px dotted #00DBDE; }
 
 html * {
   color-profile: sRGB;

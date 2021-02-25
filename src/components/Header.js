@@ -12,10 +12,10 @@ class Header extends React.Component {
 					<h1>{ profile.name }</h1>
 				</div>
 				<div className="header--pronouns">
-					{ profile.pronouns }
+					<p>{ profile.pronouns }</p>
 				</div>
 				<div className="header--bio">
-					{ profile.bio }
+					<p>{ profile.bio }</p>
 				</div>
 			</header>
 		)
