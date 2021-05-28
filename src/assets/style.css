@@ -61,7 +61,8 @@ html .solarized-violet {
     border-color: #00DBDE;
     color: #FEFEFE; }
   html .solarized-violet .links--single a:hover {
-    color: #3cf73c; }
+    color: #3cf73c;
+    border-color: #3cf73c; }
     html .solarized-violet .links--single a:hover:before {
       color: #3cf73c; }
   html .solarized-violet .links--single a:focus {
@@ -81,9 +82,9 @@ html * {
   .wrap header {
     margin: 40px auto; }
     .wrap header img {
-      width: 200px;
       border-radius: 50%;
-      box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.8); }
+      box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.8);
+      width: 150px; }
     .wrap header .header--name h1 {
       margin: 0; }
     .wrap header .header--pronouns {
@@ -100,7 +101,3 @@ html * {
     .wrap .links--single a:visited {
       text-decoration: none;
       border-bottom: 1px dotted; }
-      .wrap .links--single a:hover, .wrap .links--single a:active,
-      .wrap .links--single a:visited:hover,
-      .wrap .links--single a:visited:active {
-        border-bottom: 1px transparent; }

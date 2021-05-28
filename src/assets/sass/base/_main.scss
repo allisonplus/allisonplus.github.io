@@ -15,9 +15,9 @@ html * {
 		margin: 40px auto;
 
 		img {
-			width: 200px;
 			border-radius: 50%;
 			box-shadow: 0px 1px 10px rgba( 0, 0, 0, 0.8 );
+			width: 150px;
 		}
 
 		.header {
@@ -49,11 +49,6 @@ html * {
 			a:visited {
 				text-decoration: none;
 				border-bottom: 1px dotted;
-
-				&:hover,
-				&:active {
-					border-bottom: 1px transparent;
-				}
 			}
 		}
 	}
