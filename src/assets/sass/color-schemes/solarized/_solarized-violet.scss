@@ -1,7 +1,7 @@
 html .solarized-violet {
 	background-color: $violet;
 	// background: linear-gradient(darken(#00dbde, 15%), $violet, #3b0053);
-	background: linear-gradient(to right, #450494 3%, #b892ff, #2dc9bf);
+	background: linear-gradient(to right, #450494, #b892ff 75%, #2dc9bf);
 
 	.header {
 		&--name h1,
@@ -25,7 +25,9 @@ html .solarized-violet {
 	}
 
 	.fas,
-	.fab {
+	.fab,
+	.fa,
+	.far {
 		color: #3cf73c;
 	}
 

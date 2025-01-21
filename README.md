@@ -1,6 +1,6 @@
-# `jazzsequence.github.io`
+# `allisonplus.github.io`
 
-This is my personal profile page with all my various social and other links published to [jazzsequence.github.io](https://jazzsequence.github.io).
+This is my personal profile page with all my various social and other links published to [allisonplus.github.io](https://allisonplus.github.io).
 
 It was built with [profile.github.io](https://github.com/jazzsequence/profile.github.io).
 

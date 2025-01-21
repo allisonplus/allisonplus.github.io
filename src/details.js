@@ -20,7 +20,7 @@ const links = [
 		prefix: "fab"
 	},
 	{
-		name: "Newsletter",
+		name: "Tiny Ghost Newsletter",
 		url: "https://buttondown.com/tinyghost",
 		icon: "envelopes-bulk",
 		prefix: "fas"
@@ -32,13 +32,13 @@ const profile = {
 	name: "Allison Tarr",
 	pronouns: "she/her", // Your pronouns.
 	bio: "Currently a freelance web developer. Studying to be a therapist. Californian Canadian. Writer. Psychopomp. Public library supporter. I like to think I'll be Nancy Drew when I grow up. Sea witch.",
-	image: "https://allisontarr.com/wp-content/uploads/2025/01/IMG_3269-scaled.jpg"
+	image: "https://allisontarr.com/wp-content/uploads/2025/01/IMG_3269-scaled-e1737484901660.jpg"
 };
 
 // You can optionally customize the color scheme that will be used.
 // If you like, you can create your own color schemes. These will be
 // added as classes to the main component.
-const colorScheme = "solarized";
+const colorScheme = "solarized-violet";
 
 // Don't edit below this line!
 const details = {
