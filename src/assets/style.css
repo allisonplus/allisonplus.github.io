@@ -57,29 +57,37 @@ html .solarized-light .links--single a:hover, html .solarized-light .links--sing
 
 html .solarized-violet {
   background-color: #6c71c4;
-  background: linear-gradient(#009092, #6c71c4, #3b0053); }
-  html .solarized-violet .header--name h1, html .solarized-violet .header--bio, html .solarized-violet .header--pronouns {
-    color: #fff; }
-  html .solarized-violet .header--pronouns p {
-    font-weight: 600;
-    margin: 0; }
-  html .solarized-violet .header--bio {
-    margin: 0 auto;
-    max-width: 600px; }
-  html .solarized-violet .fas,
-  html .solarized-violet .fab {
-    color: #3cf73c; }
-  html .solarized-violet .links--single a,
-  html .solarized-violet .links--single a:visited {
-    border-color: #00DBDE;
-    color: #FEFEFE; }
-  html .solarized-violet .links--single a:hover {
-    color: #3cf73c;
-    border-color: #3cf73c; }
-    html .solarized-violet .links--single a:hover:before {
-      color: #3cf73c; }
-  html .solarized-violet .links--single a:focus {
-    border: 2px dotted #00DBDE; }
+  background: linear-gradient(to right, #450494 3%, #b892ff, #2dc9bf);
+}
+html .solarized-violet .header--name h1, html .solarized-violet .header--bio, html .solarized-violet .header--pronouns {
+  color: #fff;
+}
+html .solarized-violet .header--pronouns p {
+  font-weight: 600;
+  margin: 0;
+}
+html .solarized-violet .header--bio {
+  margin: 0 auto;
+  max-width: 600px;
+}
+html .solarized-violet .fas,
+html .solarized-violet .fab {
+  color: #3cf73c;
+}
+html .solarized-violet .links--single a, html .solarized-violet .links--single a:visited {
+  border-color: #00DBDE;
+  color: #FEFEFE;
+}
+html .solarized-violet .links--single a:hover {
+  color: #3cf73c;
+  border-color: #3cf73c;
+}
+html .solarized-violet .links--single a:hover:before {
+  color: #3cf73c;
+}
+html .solarized-violet .links--single a:focus {
+  border: 2px dotted #00DBDE;
+}
 
 html * {
   color-profile: sRGB;
@@ -102,40 +110,15 @@ body a.fork-me {
   padding: 10px;
   height: 100vh;
   font-size: 1.1rem;
-<<<<<<< HEAD
-  text-align: center; }
-  .wrap header {
-    margin: 40px auto; }
-    .wrap header img {
-      border-radius: 50%;
-      box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.8);
-      width: 150px; }
-    .wrap header .header--name h1 {
-      margin: 0; }
-    .wrap header .header--pronouns {
-      font-style: italic; }
-  .wrap .links {
-    list-style-type: none;
-    margin: 0;
-    padding: 0; }
-    .wrap .links--single span {
-      margin-right: 10px; }
-    .wrap .links--single a {
-      transition: color 0.25s linear; }
-    .wrap .links--single a,
-    .wrap .links--single a:visited {
-      text-decoration: none;
-      border-bottom: 1px dotted; }
-=======
   text-align: center;
 }
 .wrap header {
   margin: 40px auto;
 }
 .wrap header img {
-  width: 200px;
   border-radius: 50%;
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.8);
+  width: 150px;
 }
 .wrap header .header--name h1 {
   margin: 0;
@@ -151,14 +134,11 @@ body a.fork-me {
 .wrap .links--single span {
   margin-right: 10px;
 }
+.wrap .links--single a {
+  transition: color 0.25s linear;
+}
 .wrap .links--single a,
 .wrap .links--single a:visited {
   text-decoration: none;
   border-bottom: 1px dotted;
 }
-.wrap .links--single a:hover, .wrap .links--single a:active,
-.wrap .links--single a:visited:hover,
-.wrap .links--single a:visited:active {
-  border-bottom: 1px transparent;
-}
->>>>>>> 8c509645e7c7d41805794c6b8cc460fbb04b4f2b
