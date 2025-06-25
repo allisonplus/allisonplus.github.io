@@ -14,16 +14,16 @@ const links = [
 		prefix: "fas"
 	},
 	{
+		name: "Tiny Ghost Newsletter",
+		url: "https://buttondown.com/tinyghost?tag=social",
+		icon: "envelopes-bulk",
+		prefix: "fas"
+	},
+	{
 		name: "Bluesky",
 		url: "https://bsky.app/profile/allisonplus.bsky.social",
 		icon: "bluesky",
 		prefix: "fab"
-	},
-	{
-		name: "Tiny Ghost Newsletter",
-		url: "https://buttondown.com/tinyghost",
-		icon: "envelopes-bulk",
-		prefix: "fas"
 	}
 ];
 
