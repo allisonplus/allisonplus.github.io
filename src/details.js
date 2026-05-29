@@ -31,7 +31,7 @@ const links = [
 const profile = {
 	name: "Allison Tarr",
 	pronouns: "she/her", // Your pronouns.
-	bio: "Currently a freelance web developer. Studying to be a therapist. Californian Canadian. Writer. Psychopomp. Public library supporter. I like to think I'll be Nancy Drew when I grow up. Sea witch.",
+	bio: "Therapist. Californian Canadian. Writer. Psychopomp. Public library supporter. I like to think I'll be Nancy Drew when I grow up. Sea witch.",
 	image: "https://allisontarr.com/wp-content/uploads/2025/01/IMG_3269-scaled-e1737484901660.jpg"
 };
 
