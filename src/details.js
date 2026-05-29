@@ -6,17 +6,17 @@
 // The links to display on your page. These will be listed in the same order that they appear here.
 const links = [
 	{
-		name: "Web Development",
+		name: "Tiny Ghost, Big Feels (Newsletter)",
+		url: "https://buttondown.com/tinyghost?tag=social",
+		icon: "envelopes-bulk",
+		prefix: "fas"
+	},
+		{
+		name: "The Allison who did Web Development",
 		url: "https://allisontarr.com",
 		icon: "link",
 		// Refer to FontAwesome documentation to determine if an icon should be a fas or fab. (Brands are fab, so most will be fab.)
 		// https://fontawesome.com/icons?d=gallery&p=2&m=free
-		prefix: "fas"
-	},
-	{
-		name: "Tiny Ghost Newsletter",
-		url: "https://buttondown.com/tinyghost?tag=social",
-		icon: "envelopes-bulk",
 		prefix: "fas"
 	},
 	{
