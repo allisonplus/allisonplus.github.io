@@ -18,12 +18,6 @@ const links = [
 		// Refer to FontAwesome documentation to determine if an icon should be a fas or fab. (Brands are fab, so most will be fab.)
 		// https://fontawesome.com/icons?d=gallery&p=2&m=free
 		prefix: "fas"
-	},
-	{
-		name: "Bluesky",
-		url: "https://bsky.app/profile/allisonplus.bsky.social",
-		icon: "bluesky",
-		prefix: "fab"
 	}
 ];
 
