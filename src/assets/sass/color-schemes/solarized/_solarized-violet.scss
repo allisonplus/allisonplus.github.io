@@ -1,5 +1,7 @@
+@use "colors";
+
 html .solarized-violet {
-	background-color: $violet;
+	background-color: colors.$violet;
 	// background: linear-gradient(darken(#00dbde, 15%), $violet, #3b0053);
 	background: linear-gradient(to right, #450494, #b892ff 75%, #2dc9bf);
 

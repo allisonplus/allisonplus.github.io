@@ -1,14 +1,20 @@
 /**
- * Example user info for your chain of saplings 🔗🌲.
- * Update the fields with your information.
+ * Example user info 🔗🌲.
+ * Update the fields with your info.
  */
 
 // The links to display on your page. These will be listed in the same order that they appear here.
 const links = [
 	{
+		name: "Tiny Ghost",
+		url: "https://tinyghost.ca",
+		icon: "globe",
+		prefix: "fas"
+	},
+	{
 		name: "Tiny Ghost, Big Feels (Newsletter)",
 		url: "https://buttondown.com/tinyghost?tag=social",
-		icon: "envelopes-bulk",
+		icon: "envelope",
 		prefix: "fas"
 	},
 		{

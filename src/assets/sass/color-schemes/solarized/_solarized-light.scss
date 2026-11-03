@@ -1,26 +1,29 @@
+@use "../../extra/mixins";
+@use "colors";
+
 html .solarized-light {
-	@include rebase($base3,$base2,$base1,$base0,$base00,$base01,$base02,$base03);
+	@include mixins.rebase(colors.$base3,colors.$base2,colors.$base1,colors.$base0,colors.$base00,colors.$base01,colors.$base02,colors.$base03);
 
 	.header {
 		&--name h1 {
-			color: $base03;
+			color: colors.$base03;
 		}
 
 		&--bio {
-			color: $base02;
+			color: colors.$base02;
 		}
 	}
 
 	.links {
 		&--single a,
 		&--single a:visited {
-			border-color: $base0;
-			color: $blue;
+			border-color: colors.$base0;
+			color: colors.$blue;
 		}
 
 		&--single a:hover,
 		&--single a:active {
-			color: $base01;
+			color: colors.$base01;
 		}
 	}
 }
